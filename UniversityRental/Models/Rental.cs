@@ -40,7 +40,7 @@ public class Rental
     {
         if (!IsActive)
         {
-            throw new InvalidOperationException("To wypożyczenie jest już zamknięte.").
+            throw new InvalidOperationException("To wypożyczenie jest już zamknięte.");
         }
 
         ReturnedAt = returnDate;
