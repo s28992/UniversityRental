@@ -3,7 +3,7 @@ using UniversityRental.Models;
 
 namespace UniversityRental.Rules;
 
-public class PenaltyCalculator
+public class PenaltyCalculator : IPenaltyCalculator
 {
     private readonly double _dailyPenalty;
 
