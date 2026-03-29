@@ -2,7 +2,7 @@ using UniversityRental.Models;
 
 namespace UniversityRental.Repositories;
 
-public class RentalRepository
+public class RentalRepository : IRentalRepository
 {
     private readonly List<Rental> _rentals = new List<Rental>();
 
